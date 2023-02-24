@@ -1,0 +1,50 @@
+:root {
+  --text-primary-blue: hsl(238, 29%, 16%);
+  --text-primary-red: hsl(14, 88%, 65%);
+  --background-gardient: linear-gradient(
+    to bottom,
+    hsl(273, 75%, 66%),
+    hsl(240, 73%, 65%)
+  );
+
+  --text-neutral-dark: hsl(237, 12%, 33%);
+  --text-neutral-light: hsl(240, 6%, 50%);
+
+  --divider: hsl(240, 5%, 91%);
+}
+
+$bp-mobile: 375px;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--text-neutral-light);
+  background-image: var(--background-gardient);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  @media screen and (min-width: $bp-mobile) {
+    height: 100vh;
+    font-size: 1.1rem;
+  }
+}
