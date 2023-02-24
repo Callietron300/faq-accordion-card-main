@@ -10,6 +10,8 @@
   padding: 11rem 2rem 4rem 2rem;
   margin: 15rem 2rem 5rem 2rem;
 
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.4);
+
   @media screen and (min-width: $bp-mobile) {
     flex-direction: row;
 
