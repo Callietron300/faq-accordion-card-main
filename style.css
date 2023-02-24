@@ -32,10 +32,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column; }
+  flex-direction: column;
+  min-height: 100vh; }
   @media screen and (min-width: 375px) {
     body {
-      height: 100vh;
       font-size: 1.1rem; } }
 
 .faq-wrapper {
@@ -46,7 +46,8 @@ body {
   background-color: white;
   border-radius: 2.5rem;
   padding: 11rem 2rem 4rem 2rem;
-  margin: 15rem 2rem 5rem 2rem; }
+  margin: 15rem 2rem 5rem 2rem;
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.4); }
   @media screen and (min-width: 375px) {
     .faq-wrapper {
       flex-direction: row;
