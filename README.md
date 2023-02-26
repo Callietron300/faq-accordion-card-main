@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL:](https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam/hub)
-- [Live Site URL] (https://callietron300.github.io/faq-accordion-card-main/)
+- [Solution URL:](https://www.frontendmentor.io/solutions/faq-accordion-card-xmtHYeTOK-)
+- [Live Site URL](https://callietron300.github.io/faq-accordion-card-main/)
 
 ## My process
 
